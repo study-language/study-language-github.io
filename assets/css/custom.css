@@ -1,0 +1,12 @@
+body {
+  padding-top: 10px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 900px;
+}
