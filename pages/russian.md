@@ -40,6 +40,21 @@ permalink: russian
             <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/Нет.mp3" type="audio/mpeg"></audio> </td>
         </tr>
         
+        <tr>
+            <td> hello </td>
+            <td> merhaba </td>
+            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/merhaba.mp3" type="audio/mpeg"></audio> </td>
+            <td> Здравствуйте </td>
+            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/Здравствуйте.mp3" type="audio/mpeg"></audio> </td>
+        </tr>
+        
+        <tr>
+            <td> hello </td>
+            <td> günaydın </td>
+            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/günaydın.mp3" type="audio/mpeg"></audio> </td>
+            <td> доброе утро </td>
+            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/доброе утро.mp3" type="audio/mpeg"></audio> </td>
+        </tr>
     </tbody>
 </table>
 </div>
