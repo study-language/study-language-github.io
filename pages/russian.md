@@ -2,7 +2,7 @@
 title: Russian
 permalink: russian
 ---
-
+<div class="panel panel-default">
 
 <table class="table table-bordered table-striped">
     <colgroup>
@@ -34,3 +34,4 @@ permalink: russian
         
     </tbody>
 </table>
+</div>
