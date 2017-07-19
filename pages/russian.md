@@ -49,11 +49,35 @@ permalink: russian
         </tr>
         
         <tr>
-            <td> hello </td>
+            <td> good morning </td>
             <td> günaydın </td>
             <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/gunaydın.mp3" type="audio/mpeg"></audio> </td>
             <td> доброе утро </td>
             <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/доброе утро.mp3" type="audio/mpeg"></audio> </td>
+        </tr>
+
+        <tr>
+            <td> good afternoon </td>
+            <td> tünaydın / iyi günler </td>
+            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/tunaydın.mp3" type="audio/mpeg"></audio> </td>
+            <td> добрый день </td>
+            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/добрый день.mp3" type="audio/mpeg"></audio> </td>
+        </tr>
+        
+        <tr>
+            <td> good evening </td>
+            <td> iyi akşamlar </td>
+            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/iyi akşamlar.mp3" type="audio/mpeg"></audio> </td>
+            <td> добрый вечер </td>
+            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/добрый вечер.mp3" type="audio/mpeg"></audio> </td>
+        </tr>
+        
+        <tr>
+            <td> good night </td>
+            <td> iyi geceler </td>
+            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/iyi geceler.mp3" type="audio/mpeg"></audio> </td>
+            <td> доброй ночи </td>
+            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/доброй ночи.mp3" type="audio/mpeg"></audio> </td>
         </tr>
     </tbody>
 </table>
