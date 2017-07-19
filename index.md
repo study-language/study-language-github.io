@@ -1,3 +1,11 @@
 ---
 title: Home
 ---
+
+| English        | Turkish        | Russian |
+|:-------------|:------------------|:------|
+| yes           | evet | Да  <audio controls class="myaudio"> <source  src="Да.mp3" type="audio/mpeg"></audio> |
+| no | good and plenty   | nice  |
+| hello           | good `oreos`      | hmm   |
+| good morning           | good `zoute` drop | yumm  |
+
