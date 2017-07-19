@@ -51,7 +51,7 @@ permalink: russian
         <tr>
             <td> hello </td>
             <td> günaydın </td>
-            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/günaydın.mp3" type="audio/mpeg"></audio> </td>
+            <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/gunaydın.mp3" type="audio/mpeg"></audio> </td>
             <td> доброе утро </td>
             <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/доброе утро.mp3" type="audio/mpeg"></audio> </td>
         </tr>
