@@ -21,7 +21,7 @@ title: Home
         <tr>
             <td> yes </td>
             <td> evet </td>
-            <td> Да <source  src="{{ site.github.url }}/assets/sound/Да.mp3" type="audio/mpeg"></audio></td>
+            <td> Да <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/Да.mp3" type="audio/mpeg"></audio></td>
         </tr>
     </tbody>
 </table>
