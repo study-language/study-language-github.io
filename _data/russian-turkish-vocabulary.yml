@@ -3,4 +3,7 @@ vocabulary:
     tr: güneş
     tr-s: gunes
     ru: солнце
-
+  - en: moon
+    tr: ay
+    tr-s: ay
+    ru: луна
