@@ -5,16 +5,18 @@ permalink: russian-turkish-vocabulary
 
 <ul class="nav nav-pills" role="tablist">
     <li role="presentation" class="active"><a href="#s1" aria-controls="s1" role="tab" data-toggle="tab">1</a></li>
-    <li role="presentation" class="active"><a href="#s2" aria-controls="s2" role="tab" data-toggle="tab">2</a></li>
+    <li role="presentation" class=""><a href="#s2" aria-controls="s2" role="tab" data-toggle="tab">2</a></li>
 </ul>
 
 <div style="margin-top:20px"></div>
 
-{% for i in (1..2) %}
+
 
 
 
 <div class="tab-content">
+
+{% for i in (1..2) %}
 
     <div role="tabpanel" class="tab-pane active" id="s{{ i }}">
 
@@ -60,8 +62,8 @@ permalink: russian-turkish-vocabulary
     
     </div>
 
-
+{% endfor %}
 </div>
 
 
-{% endfor %}
+
