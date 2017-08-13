@@ -45,7 +45,7 @@ permalink: russian-turkish-vocabulary
  {% assign sayfa = forloop.index0 | times: satir %}
             {% for word in site.data.russian-turkish-vocabulary.vocabulary limit:satir offset:sayfa %}
                 <tr>
-                <td> {{ forloop.index | times: satir }} </td>
+                <td> {{ forloop.index0 | times: satir | plus: forloop.index0 }} </td>
                 <td> {{ word.en }} </td>
                 <td> {{ word.tr }} </td>
                 <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ word.tr-s }}.mp3" type="audio/mpeg"></audio> </td>
