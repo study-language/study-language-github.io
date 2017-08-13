@@ -16,6 +16,7 @@ permalink: russian-turkish-vocabulary
 
     <thead>
         <tr>
+            <th>No</th>
             <th>English</th>
             <th>Turkish</th>
             <th>sound</th>
@@ -28,6 +29,7 @@ permalink: russian-turkish-vocabulary
     
     {% for word in site.data.russian-turkish-vocabulary.vocabulary %}
         <tr>
+        <td> {{ forloop.index }} </td>
         <td> {{ word.en }} </td>
         <td> {{ word.tr }} </td>
         <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ word.tr-s }}.mp3" type="audio/mpeg"></audio> </td>
