@@ -1,6 +1,6 @@
 ---
 title: Russian
-permalink: russian
+permalink: russian-turkish-vocabulary
 ---
 <div class="panel panel-default">
 
