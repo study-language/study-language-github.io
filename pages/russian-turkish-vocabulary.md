@@ -4,15 +4,12 @@ permalink: russian-turkish-vocabulary
 ---
 
 <ul class="nav nav-pills" role="tablist">
-    <li role="presentation" class="active"><a href="#s1" aria-controls="s1" role="tab" data-toggle="tab">1</a></li>
-    <li role="presentation" class=""><a href="#s2" aria-controls="s2" role="tab" data-toggle="tab">2</a></li>
+{% for i in (1..2) %}
+    <li role="presentation" class="active"><a href="#s{{ i }}" aria-controls="s{{ i }}" role="tab" data-toggle="tab">{{ i }}</a></li>
+{% endfor %}
 </ul>
 
 <div style="margin-top:20px"></div>
-
-
-
-
 
 <div class="tab-content">
 
@@ -44,10 +41,11 @@ permalink: russian-turkish-vocabulary
             </thead>
 
             <tbody>
- {% assign sayfa = forloop.index0 | times: 10 %}
-            {% for word in site.data.russian-turkish-vocabulary.vocabulary limit:10 offset:sayfa %}
+ {% assign satir = 10 %}
+ {% assign sayfa = forloop.index0 | times: satir %}
+            {% for word in site.data.russian-turkish-vocabulary.vocabulary limit:satir offset:sayfa %}
                 <tr>
-                <td> {{ forloop.index }} </td>
+                <td> {{ forloop.index | times: satir }} </td>
                 <td> {{ word.en }} </td>
                 <td> {{ word.tr }} </td>
                 <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ word.tr-s }}.mp3" type="audio/mpeg"></audio> </td>
