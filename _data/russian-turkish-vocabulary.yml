@@ -59,3 +59,23 @@ vocabulary:
     tr: yarın
     tr-s: yarin
     ru: завтра
+  - en: easy
+    tr: kolay
+    tr-s: kolay
+    ru: легко
+  - en: hard
+    tr: zor
+    tr-s: zor
+    ru: жесткий
+  - en: to understand
+    tr: anlamak
+    tr-s: anlamak
+    ru: понимать
+  - en: to forget
+    tr: unutmak
+    tr-s: unutmak
+    ru: забывать
+  - en: to come
+    tr: gelmek
+    tr-s: gelmek
+    ru: приходить
