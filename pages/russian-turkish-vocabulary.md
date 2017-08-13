@@ -41,7 +41,7 @@ permalink: russian-turkish-vocabulary
             </thead>
 
             <tbody>
- {% assign satir = 15 %}
+ {% assign satir = 20 %}
  {% assign sayfa = forloop.index0 | times: satir %}
             {% for word in site.data.russian-turkish-vocabulary.vocabulary limit:satir offset:sayfa %}
                 <tr>
