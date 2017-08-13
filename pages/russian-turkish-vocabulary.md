@@ -5,13 +5,18 @@ permalink: russian-turkish-vocabulary
 
 <ul class="nav nav-pills" role="tablist">
     <li role="presentation" class="active"><a href="#s1" aria-controls="s1" role="tab" data-toggle="tab">1</a></li>
-
+    <li role="presentation" class="active"><a href="#s2" aria-controls="s2" role="tab" data-toggle="tab">2</a></li>
 </ul>
 
 <div style="margin-top:20px"></div>
+
+{% for i in (1..2) %}
+
+
+
 <div class="tab-content">
 
-    <div role="tabpanel" class="tab-pane active" id="s1">
+    <div role="tabpanel" class="tab-pane active" id="s{{ i }}">
 
         <div class="panel panel-default">
 
@@ -37,8 +42,8 @@ permalink: russian-turkish-vocabulary
             </thead>
 
             <tbody>
-
-            {% for word in site.data.russian-turkish-vocabulary.vocabulary limit:5 offset:2 %}
+ {% assign sayfa = forloop.index0 | times: 10 %}
+            {% for word in site.data.russian-turkish-vocabulary.vocabulary limit:10 offset:sayfa %}
                 <tr>
                 <td> {{ forloop.index }} </td>
                 <td> {{ word.en }} </td>
@@ -59,4 +64,4 @@ permalink: russian-turkish-vocabulary
 </div>
 
 
-
+{% endfor %}
