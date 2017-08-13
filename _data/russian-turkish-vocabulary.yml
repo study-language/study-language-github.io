@@ -15,3 +15,20 @@ vocabulary:
     tr: elma
     tr-s: elma
     ru: яблоко
+  - en: woman
+    tr: kadın
+    tr-s: kadin
+    ru: женщина
+  - en: man
+    tr: erkek
+    tr-s: erkek
+    ru: мужчина
+  - en: girl
+    tr: kız
+    tr-s: kiz
+    ru: девушка
+  - en: boy
+    tr: oğlan
+    tr-s: oglan
+    ru: мальчик
+  
