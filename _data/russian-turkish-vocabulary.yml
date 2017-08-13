@@ -1,2 +1,11 @@
 vocabulary:
-  - asd
+  - e: yes
+    t: evet
+    ts: evet.mp3
+    r: да
+    rs: да.mp3
+  - e: no
+    t: hayır
+    ts: hayir.mp3
+    r: нет
+    rs: нет.mp3
