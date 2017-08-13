@@ -32,7 +32,7 @@ permalink: russian-turkish-vocabulary
         <td> {{ word.tr }} </td>
         <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ word.tr-s }}.mp3" type="audio/mpeg"></audio> </td>
         <td> {{ word.ru }} </td>
-        <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/{{ word.ru }}.mp3" type="audio/mpeg"></audio> </td>
+        <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ word.ru }}.mp3" type="audio/mpeg"></audio> </td>
         </tr>
     {% endfor %}
 
