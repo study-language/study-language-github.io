@@ -1,9 +1,6 @@
 vocabulary:
-  - en: "yes"
-    tr: evet
-    tr-s: evet
-    ru: да
-  - en: "no"
-    tr: hayır
-    tr-s: hayir
-    ru: нет
+  - en: sun
+    tr: güneş
+    tr-s: gunes
+    ru: солнце
+
