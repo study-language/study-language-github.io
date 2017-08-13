@@ -3,9 +3,9 @@ title: Russian
 permalink: russian-turkish-vocabulary
 ---
 
-{% for word in site.data.russian-turkish-vocabulary %}
+{% for word in site.data.russian-turkish-vocabulary.vocabulary %}
 
-{{ word.e }}
+<p>{{ word.e }}</p>
 
 {% endfor %}
 
