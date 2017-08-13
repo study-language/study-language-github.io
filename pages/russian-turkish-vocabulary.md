@@ -15,7 +15,7 @@ permalink: russian-turkish-vocabulary
 
 {% for i in (1..2) %}
 
-    <div role="tabpanel" class="tab-pane active" id="s{{ i }}">
+    <div role="tabpanel" class="tab-pane {% if forloop.index0 == 0 %}active {% endif %}" id="s{{ i }}">
 
         <div class="panel panel-default">
 
