@@ -31,4 +31,31 @@ vocabulary:
     tr: oğlan
     tr-s: oglan
     ru: мальчик
-  
+  - en: day
+    tr: gün
+    tr-s: gun
+    ru: день
+  - en: today
+    tr: bugün
+    tr-s: bugun
+    ru: сегодня
+  - en: week
+    tr: hafta
+    tr-s: hafta
+    ru: неделю
+  - en: month
+    tr: ay
+    tr-s: ay
+    ru: месяц
+  - en: year
+    tr: yıl
+    tr-s: yil
+    ru: год
+  - en: yesterday
+    tr: dün
+    tr-s: dun
+    ru: вчера
+  - en: tomorrow
+    tr: yarın
+    tr-s: yarin
+    ru: завтра
