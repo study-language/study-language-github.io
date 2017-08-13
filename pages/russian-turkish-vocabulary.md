@@ -7,7 +7,8 @@ permalink: russian-turkish-vocabulary
 
 <table class="table table-bordered table-striped">
     <colgroup>
-        <col class="col-xs-3">
+        <col class="col-xs-1">
+        <col class="col-xs-2">
         <col class="col-xs-3">
         <col class="col-xs-1">
         <col class="col-xs-3">
