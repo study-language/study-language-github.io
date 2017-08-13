@@ -1,10 +1,10 @@
 vocabulary:
-  - en: yes
+  - en: "yes"
     tr: evet
     tr-s: evet.mp3
     ru: да
     ru-s: да.mp3
-  - en: no
+  - en: "no"
     tr: hayır
     tr-s: hayir.mp3
     ru: нет
