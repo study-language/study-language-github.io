@@ -7,6 +7,10 @@ vocabulary:
     tr: ay
     tr-s: ay
     ru: луна
+  - en: world
+    tr: dünya
+    tr-s: dunya
+    ru: мир
   - en: apple
     tr: elma
     tr-s: elma
