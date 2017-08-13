@@ -2,6 +2,13 @@
 title: Russian
 permalink: russian-turkish-vocabulary
 ---
+
+{% for word in site.data.russian-turkish-vocabulary %}
+
+{{ word.e }}
+
+{% endfor %}
+
 <div class="panel panel-default">
 
 <table class="table table-bordered table-striped">
