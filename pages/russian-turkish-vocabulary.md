@@ -5,7 +5,7 @@ permalink: russian-turkish-vocabulary
 
 {% for word in site.data.russian-turkish-vocabulary.vocabulary %}
 
-<p>{{ word.e }}</p>
+<p>{{ word.en }} {{ word.tr }} {{ word.ru }}</p>
 
 {% endfor %}
 
