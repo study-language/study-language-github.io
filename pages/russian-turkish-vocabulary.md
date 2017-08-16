@@ -45,7 +45,7 @@ permalink: russian-turkish-vocabulary
  {% assign sayfa = forloop.index0 | times: satir %}
             {% for word in site.data.russian-turkish-vocabulary.vocabulary limit:satir offset:sayfa %}
             
-            {% assign words = word.word | split: ' ' %}
+            {% assign words = word.word | split: ';' %}
             
                 <tr>
                 <td> {{ sayfa | plus: forloop.index }} </td>
