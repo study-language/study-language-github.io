@@ -53,9 +53,9 @@ layout: default
                 <tr>
                 <td> {{ sayfa | plus: forloop.index }} </td>
                 <td> {{ words[0] }} </td>
-                <td> <input type="text" ng-model="wt{{ i }}t{{ forloop.index }}" placeholder="" ng-style="wt{{ i }}t{{ forloop.index }}=='{{ words[2] }}' ? {'background-color': 'greenyellow'} : {'background-color': 'white'} "> </td>
+                <td> <input type="text" ng-model="wt{{ i }}t{{ forloop.index }}" placeholder="" ng-style="wt{{ i }}t{{ forloop.index }} | lowercase =='{{ words[2] }}' ? {'background-color': 'greenyellow'} : {'background-color': 'white'} "> </td>
                 <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ words[5] }}.mp3" type="audio/mpeg"></audio> </td>
-                <td> <input type="text" ng-model="wr{{ i }}r{{ forloop.index }}" placeholder=""ng-style="wr{{ i }}r{{ forloop.index }}=='{{ words[1] }}' ? {'background-color': 'greenyellow'} : {'background-color': 'white'} "> </td>
+                <td> <input type="text" ng-model="wr{{ i }}r{{ forloop.index }}" placeholder=""ng-style="wr{{ i }}r{{ forloop.index }} | lowercase =='{{ words[1] }}' ? {'background-color': 'greenyellow'} : {'background-color': 'white'} "> </td>
                 <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ words[4] }}.mp3" type="audio/mpeg"></audio> </td>
                 </tr>
             {% endfor %}
