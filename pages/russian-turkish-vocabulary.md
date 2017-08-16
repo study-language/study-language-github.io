@@ -3,6 +3,8 @@ title: Russian
 permalink: russian-turkish-vocabulary
 ---
 
+<a class="btn btn-primary" href="{{ site.github.url }}/russian-turkish-vocabulary-test.html" role="button">Quiz Page</a>
+
 <ul class="nav nav-pills" role="tablist">
 {% for i in (1..2) %}
     <li role="presentation" class="{% if forloop.index0 == 0 %}active {% endif %}"><a href="#s{{ i }}" aria-controls="s{{ i }}" role="tab" data-toggle="tab">{{ i }}</a></li>
