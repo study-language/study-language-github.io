@@ -1,81 +1,21 @@
 vocabulary:
-  - en: sun
-    tr: güneş
-    tr-s: gunes
-    ru: солнце
-  - en: moon
-    tr: ay
-    tr-s: ay
-    ru: луна
-  - en: world
-    tr: dünya
-    tr-s: dunya
-    ru: мир
-  - en: apple
-    tr: elma
-    tr-s: elma
-    ru: яблоко
-  - en: woman
-    tr: kadın
-    tr-s: kadin
-    ru: женщина
-  - en: man
-    tr: erkek
-    tr-s: erkek
-    ru: мужчина
-  - en: girl
-    tr: kız
-    tr-s: kiz
-    ru: девушка
-  - en: boy
-    tr: oğlan
-    tr-s: oglan
-    ru: мальчик
-  - en: day
-    tr: gün
-    tr-s: gun
-    ru: день
-  - en: today
-    tr: bugün
-    tr-s: bugun
-    ru: сегодня
-  - en: week
-    tr: hafta
-    tr-s: hafta
-    ru: неделю
-  - en: month
-    tr: ay
-    tr-s: ay
-    ru: месяц
-  - en: year
-    tr: yıl
-    tr-s: yil
-    ru: год
-  - en: yesterday
-    tr: dün
-    tr-s: dun
-    ru: вчера
-  - en: tomorrow
-    tr: yarın
-    tr-s: yarin
-    ru: завтра
-  - en: easy
-    tr: kolay
-    tr-s: kolay
-    ru: легко
-  - en: hard
-    tr: zor
-    tr-s: zor
-    ru: жесткий
-  - en: to understand
-    tr: anlamak
-    tr-s: anlamak
-    ru: понимать
-  - en: to forget
-    tr: unutmak
-    tr-s: unutmak
-    ru: забывать
-  - en: to come
-    tr: gelmek
-    tr-s: gelmek
-    ru: приходить
+  - word: sun;солнце;güneş;;солнце;gunes;;
+  - word: moon;луна;ay;;луна;ay;;
+  - word: world;мир;dünya;;мир;dunya;;
+  - word: apple;яблоко;elma;;яблоко;elma;;
+  - word: woman;женщина;güneş;;женщина;gunes;;
+  - word: man;мужчина;erkek;;мужчина;erkek;;
+  - word: girl;девушка;kız;;девушка;kiz;;
+  - word: boy;мальчик;oğlan;;мальчик;oglan;;
+  - word: day;день;gün;;день;gun;;
+  - word: today;сегодня;bugün;;сегодня;bugun;;
+  - word: week;неделю;hafta;;неделю;hafta;;
+  - word: month;месяц;ay;;месяц;ay;;
+  - word: year;год;yıl;;год;yil;;
+  - word: yesterday;вчера;dün;;вчера;dun;;
+  - word: tomorrow;завтра;yarın;;завтра;yarin;;
+  - word: easy;легко;kolay;;легко;kolay;;
+  - word: hard;жесткий;zor;;жесткий;zor;;
+  - word: to understand;понимать;anlamak;;понимать;anlamak;;
+  - word: to forget;забывать;unutmak;;забывать;unutmak;;
+  - word: to come;приходить;gelmek;;приходить;gelmek;;
