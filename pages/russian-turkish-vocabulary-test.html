@@ -62,9 +62,9 @@ layout: default
                 <tr>
                 <td> {{ sayfa | plus: forloop.index }} </td>
                 <td> {{ words[0] }} </td>
-                <td>  <input type="text" ng-model="w-{{ i }}-{{ forloop.index }}" placeholder=""> 
+                <td>  <input type="text" ng-model="wa{{ i }}a{{ forloop.index }}" placeholder=""> 
                     
-                    <div ng-show="w-{{ i }}-{{ forloop.index }}=='{{ words[2] }}'"> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> </div>
+                    <div ng-show="wa{{ i }}a{{ forloop.index }}=='{{ words[2] }}'"> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> </div>
                     
                     </td>
                 <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ words[5] }}.mp3" type="audio/mpeg"></audio> </td>
