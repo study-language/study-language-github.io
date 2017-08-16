@@ -62,7 +62,7 @@ layout: default
                 <tr>
                 <td> {{ sayfa | plus: forloop.index }} </td>
                 <td> {{ words[0] }} </td>
-                <td>  <input type="text" ng-model="wa{{ i }}a{{ forloop.index }}" placeholder="" ng-style="wa{{ i }}a{{ forloop.index }}=='{{ words[2] }}' ? {'background-color': 'limegreen'} "> 
+                <td>  <input type="text" ng-model="wa{{ i }}a{{ forloop.index }}" placeholder="" ng-style="wa{{ i }}a{{ forloop.index }}=='{{ words[2] }}' ? {'background-color': 'limegreen'} : {'background-color': 'white'} "> 
                     
                     <div ng-show="wa{{ i }}a{{ forloop.index }}=='{{ words[2] }}'"> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> </div>
                     
