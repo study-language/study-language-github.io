@@ -3,7 +3,8 @@ title: Russian
 permalink: russian-turkish-vocabulary
 ---
 
-<a class="btn btn-primary btn-lg" href="{{ site.github.url }}/russian-turkish-vocabulary-test.html" role="button">Quiz Page</a>
+<p class="text-right"><a class="btn btn-primary" href="{{ site.github.url }}/russian-turkish-vocabulary-test.html" role="button">Test</a></p>
+
 
 <ul class="nav nav-pills" role="tablist">
 {% for i in (1..2) %}
