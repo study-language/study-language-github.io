@@ -25,7 +25,7 @@ permalink: russian-turkish-vocabulary-anki
             {% for word in site.data.russian-turkish-vocabulary.vocabulary limit:satir offset:sayfa %}
             
             {% assign words = word.word | split: ';' %}
-            <p>{{ words[0] }};{{ words[1] }};{{ words[2] }};{{ words[3] }};[sound:{{ words[4] }}.mp3];[sound:{{ words[5] }}.mp3];{{ words[6] }};{{ words[7] }} </p>
+            {{ words[0] }};{{ words[1] }};{{ words[2] }};{{ words[3] }};[sound:{{ words[4] }}.mp3];[sound:{{ words[5] }}.mp3];{{ words[6] }};{{ words[7] }} <br>
                 
             {% endfor %}
 
