@@ -51,9 +51,9 @@ permalink: russian-turkish-vocabulary
                 <td> {{ sayfa | plus: forloop.index }} </td>
                 <td> {{ words[0] }} </td>
                 <td> {{ words[2] }} </td>
-                <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ words[4] }}.mp3" type="audio/mpeg"></audio> </td>
+                <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ words[5] }}.mp3" type="audio/mpeg"></audio> </td>
                 <td> {{ words[1] }} </td>
-                <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ words[3] }}.mp3" type="audio/mpeg"></audio> </td>
+                <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ words[4] }}.mp3" type="audio/mpeg"></audio> </td>
                 </tr>
             {% endfor %}
 
