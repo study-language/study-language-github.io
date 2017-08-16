@@ -44,13 +44,16 @@ permalink: russian-turkish-vocabulary
  {% assign satir = 20 %}
  {% assign sayfa = forloop.index0 | times: satir %}
             {% for word in site.data.russian-turkish-vocabulary.vocabulary limit:satir offset:sayfa %}
+            
+            {% assign words = word.word | split: ' ' %}
+            
                 <tr>
                 <td> {{ sayfa | plus: forloop.index }} </td>
-                <td> {{ word.en }} </td>
-                <td> {{ word.tr }} </td>
-                <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ word.tr-s }}.mp3" type="audio/mpeg"></audio> </td>
-                <td> {{ word.ru }} </td>
-                <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ word.ru }}.mp3" type="audio/mpeg"></audio> </td>
+                <td> {{ words[0] }} </td>
+                <td> {{ words[2] }} </td>
+                <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ words[4] }}.mp3" type="audio/mpeg"></audio> </td>
+                <td> {{ words[1] }} </td>
+                <td> <audio controls class="myaudio"> <source  src="{{ site.github.url }}/assets/sound/vocabulary/{{ words[3] }}.mp3" type="audio/mpeg"></audio> </td>
                 </tr>
             {% endfor %}
 
