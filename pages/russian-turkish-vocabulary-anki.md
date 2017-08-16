@@ -1,6 +1,6 @@
 ---
 title: Russian
-permalink: russian-turkish-vocabulary
+permalink: russian-turkish-vocabulary-anki
 ---
 
 <ul class="nav nav-pills" role="tablist">
