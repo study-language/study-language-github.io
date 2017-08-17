@@ -1,0 +1,61 @@
+---
+title: russian-phrases-test
+permalink: russian-phrases-test
+layout: default
+---
+
+<p class="text-right"><a class="btn btn-primary" href="{{ site.github.url }}/russian-phrases" role="button">Study</a></p>
+
+<ul class="nav nav-pills" role="tablist">
+{% for i in (1..2) %}
+    <li role="presentation" class="{% if forloop.index0 == 0 %}active {% endif %}"><a href="#s{{ i }}" aria-controls="s{{ i }}" role="tab" data-toggle="tab">{{ i }}</a></li>
+{% endfor %}
+</ul>
+
+<div style="margin-top:20px"></div>
+
+<div class="tab-content">
+
+{% for i in (1..2) %}
+
+    <div role="tabpanel" class="tab-pane {% if forloop.index0 == 0 %}active {% endif %}" id="s{{ i }}">
+
+        <div class="panel panel-default">
+
+        <table class="table table-bordered table-striped">
+            <colgroup>
+                <col class="col-xs-1">
+                <col class="col-xs-5">
+                <col class="col-xs-6">
+            </colgroup>
+
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>English</th>
+                    <th>Russian</th>
+                </tr>
+            </thead>
+
+            <tbody>
+ {% assign satir = 20 %}
+ {% assign sayfa = forloop.index0 | times: satir %}
+            {% for phrase in site.data.russian-turkish-phrases.phrases limit:satir offset:sayfa %}
+            
+            {% assign phrases = phrase.phrase | split: ';' %}
+            
+                <tr>
+                <td> {{ sayfa | plus: forloop.index }} </td>
+                <td> {{ phrases[0] }} </td>
+                <td> <input type="text" ng-model="wt{{ i }}t{{ forloop.index }}" placeholder="" ng-style="(wt{{ i }}t{{ forloop.index }} | lowercase) =='{{ phrases[1] }}' ? {'background-color': 'greenyellow'} : {'background-color': 'white'} "> </td>
+                </tr>
+            {% endfor %}
+
+            </tbody>
+        </table>
+        </div>
+    
+    </div>
+
+{% endfor %}
+</div>
