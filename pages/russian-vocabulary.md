@@ -7,7 +7,7 @@ permalink: russian-vocabulary
 
 
 <ul class="nav nav-pills" role="tablist">
-{% for i in (1..2) %}
+{% for i in (1..5) %}
     <li role="presentation" class="{% if forloop.index0 == 0 %}active {% endif %}"><a href="#s{{ i }}" aria-controls="s{{ i }}" role="tab" data-toggle="tab">{{ i }}</a></li>
 {% endfor %}
 </ul>
@@ -16,7 +16,7 @@ permalink: russian-vocabulary
 
 <div class="tab-content">
 
-{% for i in (1..2) %}
+{% for i in (1..5) %}
 
     <div role="tabpanel" class="tab-pane {% if forloop.index0 == 0 %}active {% endif %}" id="s{{ i }}">
 
