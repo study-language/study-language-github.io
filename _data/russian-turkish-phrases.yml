@@ -1,1 +1,36 @@
-a
+phrases:
+  - phrase: Yes;Да 
+  - phrase: No;Нет 
+  - phrase: Hi;Привет 
+  - phrase: Hello;Здравствуйте 
+  - phrase: Good morning;Доброе утро 
+  - phrase: Good afternoon;Добрый день
+  - phrase: Good evening;Добрый вечер 
+  - phrase: Good night;Спокойной ночи
+  - phrase: Thank you;Спасибо 
+  - phrase: Thank you very much;Большое спасибо 
+  - phrase: You're welcome / Please;Пожалуйста
+  - phrase: Excuse me;Извините 
+  - phrase: Sorry;Простите 
+  - phrase: Good;Хорошо 
+  - phrase: Do you (formal) speak English?;Вы говорите по-английски? 
+  - phrase: I speak Russian;Я говорю по-русски 
+  - phrase: I understand;Я понимаю 
+  - phrase: I don't understand;Я не понимаю 
+  - phrase: What is your name?;Как вас зовут? 
+  - phrase: My name is Sercan.;Меня зовут Sercan. 
+  - phrase: Pleased to meet you;Очень приятно 
+  - phrase: Goodbye;До свидания 
+  - phrase: Bye;Пока 
+  - phrase: How are you?;Как дела? 
+  - phrase: Where do you live?;Где ты живешь? 
+  - phrase: I live in Kiev.;Я живу в Киеве. 
+  - phrase: No problem;Нет проблем 
+  - phrase: Of course / sure;Конечно 
+  - phrase: I'm at home.;Я дома.
+  - phrase: See you!;Увидимся!
+  - phrase: Take care;Береги себя 
+  - phrase: Speak slower, please;Говорите медленнее, пожалуйста 
+  - phrase: Repeat, please;Повторите, пожалуйста 
+  - phrase: Have a good day;Хорошего тебе дня 
+  - phrase: Excellent;Отлично
