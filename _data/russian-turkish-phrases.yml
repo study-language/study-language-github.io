@@ -18,19 +18,34 @@ phrases:
   - phrase: I understand;Я понимаю 
   - phrase: I don't understand;Я не понимаю 
   - phrase: What is your name?;Как вас зовут? 
-  - phrase: My name is John.;Меня зовут John. 
+  - phrase: My name is Jenny.;Меня зовут Дженни. 
   - phrase: Pleased to meet you;Очень приятно 
   - phrase: Goodbye;До свидания 
   - phrase: Bye;Пока 
   - phrase: How are you?;Как дела? 
   - phrase: Where do you live?;Где ты живешь? 
-  - phrase: I live in Kiev.;Я живу в Киеве. 
+  - phrase: I live in Kiev;Я живу в Киеве
   - phrase: No problem;Нет проблем 
   - phrase: Of course / sure;Конечно 
-  - phrase: I'm at home.;Я дома.
+  - phrase: I'm at home;Я дома
   - phrase: See you!;Увидимся!
   - phrase: Take care;Береги себя 
   - phrase: Speak slower, please;Говорите медленнее, пожалуйста 
   - phrase: Repeat, please;Повторите, пожалуйста 
   - phrase: Have a good day;Хорошего тебе дня 
   - phrase: Excellent;Отлично
+  - phrase: This is mom;Это мама
+  - phrase: Mom is there;Мама там 
+  - phrase: Mom, Dima is a medic;Мама, Дима — медик
+  - phrase: my house;мой дом 
+  - phrase: I'm John;Я John 
+  - phrase: This is not my sweater;Это не мой свитер
+  - phrase: You are not my dad;Ты не мой папа 
+  - phrase: Here is mom;Вот мама 
+  - phrase: Where is mom?;Где мама? 
+  - phrase: My mom;моя мама 
+  - phrase: Where is my guitar?;Где моя гитара?
+  - phrase: I eat;Я ем
+  - phrase: Jenny, where is luggage?;Дженни, где багаж? 
+  - phrase: No;Нет 
+  - phrase: No;Нет
