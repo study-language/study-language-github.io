@@ -47,7 +47,7 @@ layout: default
                 <tr>
                 <td> {{ sayfa | plus: forloop.index }} </td>
                 <td> {{ phrases[0] }} </td>
-                <td> <input type="text" ng-model="wt{{ i }}t{{ forloop.index }}" placeholder="" ng-style="(wt{{ i }}t{{ forloop.index }} | lowercase) =='{{ phrases[1] | lowercase }}' ? {'background-color': 'greenyellow'} : {'background-color': 'white'} "> </td>
+                <td> <input type="text" ng-model="wt{{ i }}t{{ forloop.index }}" placeholder="" ng-style="(wt{{ i }}t{{ forloop.index }} | lowercase) =='{{ phrases[1] | downcase }}' ? {'background-color': 'greenyellow'} : {'background-color': 'white'} "> </td>
                 </tr>
             {% endfor %}
 
