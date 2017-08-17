@@ -42,7 +42,7 @@ permalink: russian-phrases
  {% assign sayfa = forloop.index0 | times: satir %}
             {% for phrase in site.data.russian-turkish-phrases.phrases limit:satir offset:sayfa %}
             
-            {% assign words = phrase.phrase | split: ';' %}
+            {% assign phrases = phrase.phrase | split: ';' %}
             
                 <tr>
                 <td> {{ sayfa | plus: forloop.index }} </td>
