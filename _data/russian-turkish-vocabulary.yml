@@ -44,3 +44,15 @@ vocabulary:
   - word: city;город;şehir;;город;sehir;;
   - word: milk;молоко;süt;;молоко;sut;;
   - word: brother;брат;erkek kardeş;;брат;erkek kardes;;
+  - word: cat;кошка;kedi;;кошка;kedi;;
+  - word: child;ребёнок;çocuk;;ребёнок;cocuk;;
+  - word: water;вода;su;;вода;su;;
+  - word: children;дети;çocuklar;;дети;cocuklar;;
+  - word: to drink;пить;içmek;;пить;icmek;;
+  - word: egg;яйцо;yumurta;;яйцо;yumurta;;
+  - word: table;стол;masa;;стол;masa;;
+  - word: telephone;телефон;telefon;;телефон;telefon;;
+  - word: office;офис;ofis;;офис;ofis;;
+  - word: plan;план;plan;;план;plan;;
+  - word: plate;тарелка;tabak;;тарелка;tabak;;
+  - word: horse;лошадь;at;;лошадь;at;;
