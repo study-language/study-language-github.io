@@ -5,9 +5,10 @@ permalink: russian-vocabulary
 
 <p class="text-right"><a class="btn btn-primary" href="{{ site.github.url }}/russian-vocabulary-test.html" role="button">Test</a></p>
 
+{% assign tabsayisi = site.data.russian-turkish-vocabulary.vocabulary| size | divided_by: 20 | plus: 1 %}
 
 <ul class="nav nav-pills" role="tablist">
-{% for i in (1..5) %}
+{% for i in (1..tabsayisi) %}
     <li role="presentation" class="{% if forloop.index0 == 0 %}active {% endif %}"><a href="#s{{ i }}" aria-controls="s{{ i }}" role="tab" data-toggle="tab">{{ i }}</a></li>
 {% endfor %}
 </ul>
@@ -16,7 +17,7 @@ permalink: russian-vocabulary
 
 <div class="tab-content">
 
-{% for i in (1..5) %}
+{% for i in (1..tabsayisi) %}
 
     <div role="tabpanel" class="tab-pane {% if forloop.index0 == 0 %}active {% endif %}" id="s{{ i }}">
 
